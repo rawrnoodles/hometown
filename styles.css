@@ -1,0 +1,202 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+.top {
+    padding: 100px 100px;
+    background: linear-gradient(#D4145A, #FBB03B);
+}
+
+#header {
+    font-size: 72px;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0px 0px 1px black;
+    margin: 50px 20px;
+}
+
+body {
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+    background: linear-gradient(#C33764, #1D2671);
+    color: white;
+    margin: 0;
+}
+
+#banner-img {
+    width: 100%;
+    background-image: url(images/london.jpg);
+    height: 405px;
+    background-position: center;
+    background-size: cover;
+}
+
+.places-img {
+    width: 250px;
+    height: 250px;
+    border: 6px solid white;
+    box-shadow: 0px 0px 1px black;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.things-to-do {
+    text-align: center;
+    display: flex;
+    margin: 50px 0;
+    justify-content: space-around;
+    text-wrap: wrap;
+    flex-direction: row;
+}
+
+#british-museum {
+    background: url(images/britishmuseum.jpg);
+    background-size: cover; 
+}
+
+#tower-of-london {
+    background: url(images/toweroflondon.jpg);
+    background-size: cover;     
+}
+
+#sky-gardens {
+    background: url(images/skygardens.jpg);
+    background-size: cover;    
+}
+
+.where-to-stay {
+    text-align: center;
+    display: flex;
+    margin: 50px 0;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+#kings-cross {
+    background: url(images/kingscrossstation.jpg);
+    background-size: cover;
+}
+
+#platform {
+    background: url(images/platform.jpg);
+    background-size: cover;
+}
+
+#harry-potter-store {
+    background: url(images/harrypotterstore.jpg);
+    background-size: cover;
+}
+
+#renaissance-hotel {
+    background: url(images/renaissancehotel.jpg);
+    background-size: cover;    
+}
+
+.where-to-eat {
+    text-align: center;
+    display: flex;
+    margin: 50px 0;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+#poppies {
+    background: url(images/poppies.jpg);
+    background-size: cover;    
+}
+
+#claridges {
+    background: url(images/claridges.jpg);
+    background-size: cover;    
+}
+
+#the-orangery {
+    background: url(images/theorangery.jpeg);
+    background-size: cover;    
+}
+
+.what-transport-to-take {
+    text-align: center;
+    display: flex;
+    margin: 50px 0;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+#underground {
+    background: url(images/underground.jpg);
+    background-size: cover;    
+}
+
+#bus {
+    background: url(images/bus.jpg);
+    background-size: cover;    
+}
+
+#taxi {
+    background: url(images/taxi.jpg);
+    background-size: cover;    
+}
+
+.best-time-visit {
+    text-align: center;
+    display: flex;
+    margin: 50px 0;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+#kew-gardens {
+    background: url(images/kewgardens.jpg);
+    background-size: cover;    
+}
+
+#summer-festival {
+    background: url(images/summerfestival.jpg);
+    background-size: cover;    
+}
+
+#winter-wonderland {
+    background: url(images/winterwonderland.jpg);
+    background-size: cover;    
+}
+
+#image_slider {
+    display: flex;
+	width: 100%;
+    place-content: center;
+    height: 450px;
+}
+
+.image_caption_wrapper {
+	padding: 10px;
+    font-size: 15px;
+}
+
+#sign-up {
+    text-align: center;
+    padding: 125px 100px;
+    background: linear-gradient(#02AABD, #00CDAC);
+}
+
+.slick-prev:before, .slick-next:before { 
+	font-family: "slick"; 
+	font-size: 40px; 
+	line-height: 1; 
+	color: purple; 
+	-webkit-font-smoothing: antialiased; 
+	-moz-osx-font-smoothing: grayscale; 
+}   
+
+.slick-prev:before { content: "‹"; }
+[dir="rtl"] .slick-prev:before { content: "›"; }
+
+[dir="rtl"] .slick-next { left: -10px; top: 70px; right: auto; }
+.slick-next:before { content: "›"; }
+[dir="rtl"] .slick-next:before { content: "‹"; }
